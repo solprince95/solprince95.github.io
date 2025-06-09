@@ -60,26 +60,36 @@
     .btn:hover {
       background: #2ea043;
     }
-    .github-icon {
+    .social-icons {
       position: absolute;
       top: 1.5rem;
       right: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      align-items: flex-end;
     }
-    .github-icon img {
-      width: 80px;
-      height: 80px;
+    .social-icons a img {
+      width: 32px;
+      height: 32px;
       filter: invert(70%);
+      transition: filter 0.2s;
     }
-    .github-icon img:hover {
+    .social-icons a img:hover {
       filter: invert(100%);
     }
   </style>
 </head>
 <body>
   <header>
-    <a class="github-icon" href="https://github.com/solprince95" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />
-    </a>
+    <div class="social-icons">
+      <a href="https://github.com/solprince95" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />
+      </a>
+      <a href="https://linkedin.com/in/prince-solanki-4a4610366" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" />
+      </a>
+    </div>
     <h1>Prince Solanki</h1>
     <p>Aspiring Cybersecurity Analyst | Bharat 🇮🇳</p>
     <nav>
