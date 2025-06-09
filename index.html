@@ -15,6 +15,7 @@
       background: #161b22;
       padding: 1.5rem;
       text-align: center;
+      position: relative;
     }
     header h1 {
       margin: 0;
@@ -59,10 +60,26 @@
     .btn:hover {
       background: #2ea043;
     }
+    .github-icon {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+    }
+    .github-icon img {
+      width: 28px;
+      height: 28px;
+      filter: invert(70%);
+    }
+    .github-icon img:hover {
+      filter: invert(100%);
+    }
   </style>
 </head>
 <body>
   <header>
+    <a class="github-icon" href="https://github.com/solprince95" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />
+    </a>
     <h1>Prince Solanki</h1>
     <p>Aspiring Cybersecurity Analyst | Bharat 🇮🇳</p>
     <nav>
@@ -90,7 +107,138 @@
     <div class="project">
       <h3>Ping Sweep Script</h3>
       <p>Created a Python tool to scan live hosts on a subnet using ICMP packets.</p>
-      <a class="btn" href="https://github.com/solprince95/script-tools" target="_blank">View Script</a>
+      <a class="btn" href="https://github.com/solprince95/scripts-tools/blob/main/ping-sweep.py" target="_blank">View Script</a>
+    </div>
+    <div class="project">
+      <h3>TryHackMe Writeups</h3>
+      <p>Documented CTFs like Mr. Robot and Intro to Cybersecurity.</p>
+      <a class="btn" href="https://github.com/solprince95/writeups" target="_blank">View Writeups</a>
+    </div>
+  </section>  <section id="reports">
+    <h2>Security Reports</h2>
+    <p>
+      I create professional-style incident reports, vulnerability scans, and PDF documentation of my findings.
+    </p>
+    <a class="btn" href="https://github.com/solprince95/reports" target="_blank">View Reports</a>
+  </section>  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:sol.prince95@gmail.com">sol.prince95@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/solprince95" target="_blank">github.com/solprince95</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/prince-solanki-4a4610366" target="_blank">prince-solanki</a></p>
+  </section>  <footer>
+    <p>🛡️ Defending Bharat’s Cyberspace | © Prince Solanki 2025</p>
+  </footer>
+</body>
+</html><!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prince Solanki | Cybersecurity Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background: #0d1117;
+      color: #c9d1d9;
+    }
+    header {
+      background: #161b22;
+      padding: 1.5rem;
+      text-align: center;
+      position: relative;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #58a6ff;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #8b949e;
+    }
+    nav a:hover {
+      color: #58a6ff;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .project {
+      background: #161b22;
+      border: 1px solid #30363d;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #8b949e;
+      font-size: 0.9rem;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: #238636;
+      color: white;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+    .btn:hover {
+      background: #2ea043;
+    }
+    .github-icon {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+    }
+    .github-icon img {
+      width: 28px;
+      height: 28px;
+      filter: invert(70%);
+    }
+    .github-icon img:hover {
+      filter: invert(100%);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="github-icon" href="https://github.com/solprince95" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />
+    </a>
+    <h1>Prince Solanki</h1>
+    <p>Aspiring Cybersecurity Analyst | Bharat 🇮🇳</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#reports">Reports</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a self-taught cybersecurity learner with hands-on experience in DNS traffic capture, Nmap scanning,
+      Metasploitable lab testing, and CTF writeups. I'm passionate about defending the digital future of Bharat 🇮🇳.
+    </p>
+    <p>
+      I completed the Google Cybersecurity Professional Certificate and created a personal home lab using VirtualBox, Kali Linux, and more.
+    </p>
+  </section>  <section id="projects">
+    <h2>Projects & Labs</h2>
+    <div class="project">
+      <h3>DNS Traffic Analysis</h3>
+      <p>Captured and analyzed DNS queries using tcpdump and Wireshark.</p>
+      <a class="btn" href="https://github.com/solprince95/reports" target="_blank">View Project</a>
+    </div>
+    <div class="project">
+      <h3>Ping Sweep Script</h3>
+      <p>Created a Python tool to scan live hosts on a subnet using ICMP packets.</p>
+      <a class="btn" href="https://github.com/solprince95/scripts-tools/blob/main/ping-sweep.py" target="_blank">View Script</a>
     </div>
     <div class="project">
       <h3>TryHackMe Writeups</h3>
